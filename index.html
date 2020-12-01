@@ -48,12 +48,13 @@
             </div>
 
             <div id="xxx">
-              <label id="unity">Tipo de Unidade Consumidora?</label>
+              <!-- <label id="unity">Tipo de Unidade Consumidora?</label> -->
             </div>
 
             <div class="register">
               <input class="informationField" id="telefone" name"telefone" type="text" placeholder="Telefone">
-              <select class="informationField" name="interest">
+              <select class="informationField" name="interest" required>
+                <option class="questionColor" value="" disabled selected>Qual o Tipo de Unidade Consumidora?</option>
                 <option value="residence">RESIDÊNCIA</option>
                 <option value="commerce">COMÉRCIO</option>
                 <option value="agro">AGRO</option>
@@ -61,12 +62,14 @@
             </div>
 
             <div id="xxx">
-              <label for="gral">Qual seu grau de interesse?</label>
+              <!-- <label for="gral">Qual seu grau de interesse?</label> -->
             </div>
 
             <div class="register">
               <input class="informationField" id="Kwh" name"Kwh" type="text" placeholder="Consumo mensal de energia em Kwh">
-              <select class="informationField" name="interest">
+
+              <select class="informationField" name="interest" required>
+                <option class="questionColor" value="" disabled selected>Qual seu grau de interesse?</option>
                 <option value="compraria-ja">COMPRARIA JÁ</option>
                 <option value="interessado">INTERESSADO</option>
                 <option value="não-sei">NÃO SEI</option>

@@ -82,6 +82,11 @@ label {
 
 }
 
+select:invalid {
+  color: gray;
+  font-weight: bolder;
+}
+
 #contact {
     margin-bottom: 0;
 }
@@ -111,8 +116,11 @@ label {
     left: 1px;
     text-shadow: 0 0 4px #fff;
 }
+
 footer {
     background-color: gray;
     height: 90px;
     margin-top: -16px;
 }
+
+
