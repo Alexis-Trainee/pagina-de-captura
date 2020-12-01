@@ -3,43 +3,6 @@ body {
     padding: 0;
 }
 
-/* #menu ul { */
-/*     margin: 0; */
-/*     padding: 0; */
-/* } */
-
-/* #menu ul ul { */
-/*     display: none; */
-/* } */
-
-/* #menu ul li{ */
-/*     background-color: #00BFFF; */
-/*     color: white; */
-/*     float: left; */
-/*     width: 150px; */
-/*     height: 20px; */
-/*     margin-right: 5px; */
-/*     display: inline-block; */
-/*     text-align: center; */
-/*     font-size: 16px; */
-/* } */
-
-/* #menu ul li:hover { */
-/*     background-color: #4682B4; */
-/* } */
-
-/* #menu ul li:hover> ul { */
-/*     display: block; */
-/* } */
-
-/* #menu ul ul li:hover { */
-/*     color: black; */
-/*     background-color: #FFFFFF; */
-/* } */
-/* header { */
-/*     height: 120px; */
-/* } */
-
 section {
     text-align: center;
 }
@@ -49,7 +12,7 @@ section {
 }
 
 #containerForm {
-    margin-top: 170px;
+    margin-top: 160px;
 }
 
 .register {
@@ -118,9 +81,36 @@ select:invalid {
 }
 
 footer {
-    background-color: gray;
-    height: 90px;
+    background-color: #363636;
+    height: 100px;
     margin-top: -16px;
 }
 
+.footerContainer {
+    text-align: center;
+    transform: translateY(10px);
+}
 
+a {
+    text-decoration: none;
+    color: #F8F8FF;
+    font-size: 11px;
+
+}
+
+span {
+    color: #F8F8FF;
+    font-size: 15px;
+}
+
+#copy {
+    text-align: center;
+    background-color: black;
+    margin-top: 23px;
+    height: 40px;
+}
+
+#copy span {
+line-height: 40px;
+font-size: 13px;
+}
