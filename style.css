@@ -3,50 +3,48 @@ body {
     padding: 0;
 }
 
-#menu ul {
-    margin: 0;
-    padding: 0;
-}
+/* #menu ul { */
+/*     margin: 0; */
+/*     padding: 0; */
+/* } */
 
-#menu ul ul {
-    display: none;
-}
+/* #menu ul ul { */
+/*     display: none; */
+/* } */
 
-#menu ul li{
-    background-color: #00BFFF;
-    color: white;
-    float: left;
-    width: 150px;
-    height: 20px;
-    margin-right: 5px;
-    display: inline-block;
-    text-align: center;
-    font-size: 16px;
-}
+/* #menu ul li{ */
+/*     background-color: #00BFFF; */
+/*     color: white; */
+/*     float: left; */
+/*     width: 150px; */
+/*     height: 20px; */
+/*     margin-right: 5px; */
+/*     display: inline-block; */
+/*     text-align: center; */
+/*     font-size: 16px; */
+/* } */
 
-#menu ul li:hover {
-    background-color: #4682B4;
-}
+/* #menu ul li:hover { */
+/*     background-color: #4682B4; */
+/* } */
 
-#menu ul li:hover> ul {
-    display: block;
-}
+/* #menu ul li:hover> ul { */
+/*     display: block; */
+/* } */
 
-#menu ul ul li:hover {
-    color: black;
-    background-color: #FFFFFF;
-}
-header {
-    height: 120px;
-}
+/* #menu ul ul li:hover { */
+/*     color: black; */
+/*     background-color: #FFFFFF; */
+/* } */
+/* header { */
+/*     height: 120px; */
+/* } */
 
 section {
-    /* border: solid 2px red; */
     text-align: center;
 }
 
 #container {
-    /* border:solid 1px black; */
     height: 700px;
 }
 
@@ -56,8 +54,6 @@ section {
 
 .register {
     text-align: center;
-    /* background-color: #eadfdf; */
-    /* border: solid 1px black; */
     margin-bottom: 35px;
 }
 
@@ -83,19 +79,22 @@ label {
 }
 
 select:invalid {
-  color: gray;
-  font-weight: bolder;
+    color: gray;
+    font-weight: bolder;
 }
 
 #contact {
     margin-bottom: 0;
+    font-weight: bolder;
 }
 
 .checkbox {
     display: block;
-    width: 100px;
-    margin-left: 10px;
+    width: 120px;
+    /* margin-left: 10px; */
     text-align: initial;
+    margin: auto;
+    padding-left: 40px
 }
 
 #submit {
@@ -107,6 +106,7 @@ select:invalid {
     color: white;
     background-color: #1E90FF;
     margin: auto;
+    margin-top: 15px;
 }
 
 #submit:hover {

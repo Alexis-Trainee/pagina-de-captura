@@ -10,30 +10,6 @@
   </head>
   <body>
 
-    <header>
-      <nav id="menu">
-        <!-- <div id="logo"> -->
-        <!-- </div> -->
-        <ul>
-          <li>Quem somos</li>
-          <li>
-            Energia solar para
-            <ul>
-              <li>Residências</li>
-              <li>Empresas</li>
-              <li>Propriedades Rurais</li>
-            </ul>
-          </li>
-          <li>Cursos</li>
-          <li>box4</li>
-          <li>box5</li>
-        </ul>
-
-        <!-- <div id="localization"> -->
-        <!-- </div> -->
-      </nav>
-    </header>
-
     <section>
       <div id="container">
         <h1>Aqui Vai um Texto AQui vai um texto</h1>
@@ -43,16 +19,12 @@
           <form method="GET" action="">
             <div class="register">
 
-              <input class="informationField" id="name" name"userName" type="text" placeholder="Nome Completo">
-              <input class="informationField" id="email" name"email" type="text" placeholder="Email">
-            </div>
-
-            <div id="xxx">
-              <!-- <label id="unity">Tipo de Unidade Consumidora?</label> -->
+              <input class="informationField" id="name" name"userName" type="text" placeholder="Nome Completo" required>
+              <input class="informationField" id="email" name"email" type="email" placeholder="Email" required>
             </div>
 
             <div class="register">
-              <input class="informationField" id="telefone" name"telefone" type="text" placeholder="Telefone">
+              <input class="informationField" id="telefone" name"phone" type="tel" placeholder="Telefone com o DDD" required>
               <select class="informationField" name="interest" required>
                 <option class="questionColor" value="" disabled selected>Qual o Tipo de Unidade Consumidora?</option>
                 <option value="residence">RESIDÊNCIA</option>
@@ -61,12 +33,8 @@
               </select>
             </div>
 
-            <div id="xxx">
-              <!-- <label for="gral">Qual seu grau de interesse?</label> -->
-            </div>
-
             <div class="register">
-              <input class="informationField" id="Kwh" name"Kwh" type="text" placeholder="Consumo mensal de energia em Kwh">
+              <input class="informationField" id="Kwh" name"Kwh" type="text" placeholder="Consumo mensal de energia em Kwh" required>
 
               <select class="informationField" name="interest" required>
                 <option class="questionColor" value="" disabled selected>Qual seu grau de interesse?</option>
@@ -91,9 +59,24 @@
         </div>
       </div>
     </section>
+
     <footer>
-      <p>aqui será o rodapé</p>
+      <!-- <p>aqui será o rodapé</p> -->
+      <div class="footerLinks">
+<a href="url">link text</a>
+<a href="url">link text</a>
+      </div>
+
+      <div class="footerLinks">
+        <a href="url">link text</a>
+        <a href="url">link text</a>
+        <a href="url">link text</a>
+      </div>
     </footer>
+
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="jquery.mask.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
 
