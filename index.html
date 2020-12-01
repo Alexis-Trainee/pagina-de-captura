@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="@mediaQuery.css" media="screen"/>
     <link rel="sortcut icon" href="solar-cym.png" type="image/png" />
     <meta >
   </head>
@@ -12,9 +13,18 @@
 
     <section>
       <div id="container">
-        <h1>Aqui Vai um Texto AQui vai um texto</h1>
-        <p>Aqui vai um parágrafo</p>
-
+        <h1>
+          Preencha o formulário abaixo para receber seu Orçamento 100% Grátis de Energia Solar!
+        </h1>
+        <p class="economyPromise">
+          Chegou a hora de<span class="economyPromise"> Economizar até 95% da Fatura de Luz</span> todo Mês!
+        </p>
+        <p>
+          <span id="deadline"> Carência</span> de 90 dias para o primeiro pagamento no Boleto!!
+        </p>
+        <p>
+          SOLICITE SEU ORÇAMENTO GRATUITO AGORA:
+        </p>
         <div id="containerForm">
           <form method="GET" action="">
             <div class="register">
@@ -52,7 +62,7 @@
             </div>
 
             <div class="register">
-              <input id="submit" type="submit" value="ENVIAR">
+              <input id="submit" type="submit" value="ENVIAR" onclick="confirmation()" disabled="disabled">
             </div>
 
           </form>

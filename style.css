@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: rgba(51, 57, 62, 1);
 }
 
 section {
@@ -11,21 +12,38 @@ section {
     height: 700px;
 }
 
+h1 {
+    color: white;
+    font-size: 27px;
+}
+
+.economyPromise {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+}
+
+span.economyPromise {
+    color:#FF8C00;
+}
+
+p {
+    color: white;
+    font-size: 25px;
+}
+
+#deadline {
+    text-decoration: underline;
+    font-size: 25px;
+}
+
 #containerForm {
-    margin-top: 160px;
+    margin-top: 50px;
 }
 
 .register {
     text-align: center;
     margin-bottom: 35px;
-}
-
-label {
-    float: right;
-    margin-right: 347px;
-    margin-bottom: -17px;
-    position: relative;
-    margin-top: -18px;
 }
 
 #unity {
@@ -44,17 +62,19 @@ label {
 select:invalid {
     color: gray;
     font-weight: bolder;
+    background-color: white;
 }
 
 #contact {
     margin-bottom: 0;
     font-weight: bolder;
+    font-size: 16px;
 }
 
 .checkbox {
     display: block;
     width: 120px;
-    /* margin-left: 10px; */
+    color: white;
     text-align: initial;
     margin: auto;
     padding-left: 40px
@@ -67,13 +87,13 @@ select:invalid {
     font-size: 20px;
     font-weight: bolder;
     color: white;
-    background-color: #1E90FF;
+    background-color:#FF8C00;
     margin: auto;
     margin-top: 15px;
 }
 
 #submit:hover {
-    background-image: linear-gradient(to right, red, transparent, blue );
+    /* background-image: linear-gradient(to right, red, transparent, blue ); */
     position: relative;
     top: 1px;
     left: 1px;
@@ -81,7 +101,7 @@ select:invalid {
 }
 
 footer {
-    background-color: #363636;
+    background-color: rgb(58,58,58);
     height: 100px;
     margin-top: -16px;
 }
@@ -111,6 +131,6 @@ span {
 }
 
 #copy span {
-line-height: 40px;
-font-size: 13px;
+    line-height: 40px;
+    font-size: 13px;
 }
