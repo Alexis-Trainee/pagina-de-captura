@@ -4,12 +4,16 @@ body {
     background-color: rgba(51, 57, 62, 1);
 }
 
+header {
+    text-align: center;
+}
+
 section {
     text-align: center;
 }
 
 #container {
-    height: 700px;
+    height: 540px;
 }
 
 h1 {
@@ -93,7 +97,6 @@ select:invalid {
 }
 
 #submit:hover {
-    /* background-image: linear-gradient(to right, red, transparent, blue ); */
     position: relative;
     top: 1px;
     left: 1px;
