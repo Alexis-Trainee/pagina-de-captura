@@ -94,6 +94,7 @@ select:invalid {
     background-color:#FF8C00;
     margin: auto;
     margin-top: 15px;
+    cursor: pointer;
 }
 
 #submit:hover {
@@ -118,7 +119,7 @@ a {
     text-decoration: none;
     color: #F8F8FF;
     font-size: 11px;
-
+    cursor: pointer;
 }
 
 span {
